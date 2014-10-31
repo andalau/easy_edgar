@@ -33,6 +33,4 @@ ARS	Annual Report to Security Holders.
 
 11-K	An annual report of employee stock purchase, savings and similar plans.
 
-DEF 14-A	Proxy Statement. Notification of shareholder votes, information about the Board of Directors, Board compensation, and 
-
-Executive compensation.
+DEF 14-A	Proxy Statement. Notification of shareholder votes, information about the Board of Directors, Board compensation, and Executive compensation.
