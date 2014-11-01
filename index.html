@@ -28,9 +28,18 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
+    <!--jquery library-->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script>//google universal analytics event tracking for searching sec files
+    	// Using jQuery Event API v1.3
+	$('#sec_button').on('click', function() {
+  	ga('send', 'event', 'button', 'click', 'search_sec');
+	});
+    </script>
+    
     
     <link rel="stylesheet" type="text/css" href="style.css">
-	<script>//google analytics tracking
+	<script>//google universal analytics tracking
   	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -178,7 +187,7 @@
                             <form action="http://yahoo.brand.edgar-online.com/default.aspx?sym=">
     						<input class="symbolText" type="text" name="sym"><br>
     						<br>
-    						<input type="Submit" value="See SEC Files" target="_blank" class="btn btn-default btn-lg">
+    						<input id="sec_button" type="Submit" value="See SEC Files" target="_blank" class="btn btn-default btn-lg">
 							</form>
                             </li>
                         </ul>
